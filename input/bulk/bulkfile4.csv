@@ -1,0 +1,4 @@
+"trx_id";"virtual_account";"customer_name";"customer_email";"customer_phone";"trx_amount";"expired_date";"expired_time";"description"
+"240720259";"";"Andi";"andi@example.com";"08567891011";"1000";"2022-12-31";"23:59:59";"pembayaran apa saja"
+"240720260";"";"Budi";"budi@example.com";"08123456789";"20000";"2022-12-31";"23:59:59";"uang kuliah"
+"240720261";"";"Cinta";"cinta@example.com";"08975310864";"25000";"2022-12-31";"23:59:59";"uang makan"

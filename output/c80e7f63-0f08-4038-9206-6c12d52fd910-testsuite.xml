@@ -1,0 +1,209 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658569175587' stop='1658569204008'>
+    <name>ShowBillingData:</name>
+    <title>ShowBillingData:</title>
+    <test-cases>
+        <test-case start='1658569175591' status='passed' stop='1658569203466'>
+            <name>DownloadBillingData</name>
+            <title>DownloadBillingData</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1658569176635' status='passed' stop='1658569192566'>
+                    <name>I: Login </name>
+                    <title>I: Login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1658569176635' status='passed' stop='1658569180961'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1658569180962' status='passed' stop='1658569183969'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1658569183969' status='passed' stop='1658569184112'>
+                            <name>I click "#loginButton"</name>
+                            <title>I click "#loginButton"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1658569184113' status='passed' stop='1658569184349'>
+                            <name>I fill field "#loginform-username", "alamw"</name>
+                            <title>I fill field "#loginform-username", "alamw"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1658569184350' status='passed' stop='1658569184617'>
+                            <name>I fill field "#loginform-password", "Spe-2022"</name>
+                            <title>I fill field "#loginform-password", "Spe-2022"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1658569184617' status='passed' stop='1658569184757'>
+                            <name>I click "#login"</name>
+                            <title>I click "#login"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1658569184757' status='passed' stop='1658569192396'>
+                            <name>I wait for navigation </name>
+                            <title>I wait for navigation </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1658569192396' status='passed' stop='1658569192566'>
+                            <name>I see "Dashboard (Credit Only)"</name>
+                            <title>I see "Dashboard (Credit Only)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1658569192566' status='passed' stop='1658569192718'>
+                    <name>I click "Report"</name>
+                    <title>I click "Report"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569192719' status='passed' stop='1658569193726'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569193727' status='passed' stop='1658569193867'>
+                    <name>I click "Billing Data"</name>
+                    <title>I click "Billing Data"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569193867' status='passed' stop='1658569194472'>
+                    <name>I wait for navigation </name>
+                    <title>I wait for navigation </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569194472' status='passed' stop='1658569194481'>
+                    <name>I wait for text "All times and dates are presented in UTC+7."</name>
+                    <title>I wait for text "All times and dates are presented in UTC+7."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569194482' status='passed' stop='1658569194615'>
+                    <name>I select option "#transactionssearch-request_type", "Portal"</name>
+                    <title>I select option "#transactionssearch-request_type", "Portal"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569194616' status='passed' stop='1658569195625'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569195626' status='passed' stop='1658569195989'>
+                    <name>I click "//thead/tr[@id='w0-filters']/td[9]/div[1]/a[1]"</name>
+                    <title>I click "//thead/tr[@id='w0-filters']/td[9]/div[1]/a[1]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569195990' status='passed' stop='1658569196525'>
+                    <name>I fill field "//thead/tr[@id='w0-filters']/td[9]/div[1]/a[1]", "Fixed Payment"</name>
+                    <title>I fill field "//thead/tr[@id='w0-filters']/td[9]/div[1]/a[1]", "Fixed Payment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569196525' status='passed' stop='1658569196667'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569196667' status='passed' stop='1658569197537'>
+                    <name>I click "//thead/tr[@id='w0-filters']/td[13]/div[1]/a[1]"</name>
+                    <title>I click "//thead/tr[@id='w0-filters']/td[13]/div[1]/a[1]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569197537' status='passed' stop='1658569197890'>
+                    <name>I fill field "//thead/tr[@id='w0-filters']/td[13]/div[1]/a[1]", "Inactive"</name>
+                    <title>I fill field "//thead/tr[@id='w0-filters']/td[13]/div[1]/a[1]", "Inactive"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569197890' status='passed' stop='1658569198017'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569198017' status='passed' stop='1658569198812'>
+                    <name>I click "//thead/tr[@id='w0-filters']/td[14]/div[1]/a[1]/span[2]/b[1]"</name>
+                    <title>I click "//thead/tr[@id='w0-filters']/td[14]/div[1]/a[1]/span[2]/b[1]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569198812' status='passed' stop='1658569199362'>
+                    <name>I fill field "//thead/tr[@id='w0-filters']/td[14]/div[1]/a[1]/span[2]/b[1]", "Settled (Lunas)"</name>
+                    <title>I fill field "//thead/tr[@id='w0-filters']/td[14]/div[1]/a[1]/span[2]/b[1]", "Settled (Lunas)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569199362' status='passed' stop='1658569199486'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569199486' status='passed' stop='1658569199492'>
+                    <name>I handle downloads </name>
+                    <title>I handle downloads </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569199492' status='passed' stop='1658569200309'>
+                    <name>I select option "#transactionssearch-export_excel", "csv_semicolon"</name>
+                    <title>I select option "#transactionssearch-export_excel", "csv_semicolon"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569200309' status='passed' stop='1658569200448'>
+                    <name>I click "Download"</name>
+                    <title>I click "Download"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569200449' status='passed' stop='1658569203462'>
+                    <name>I wait "3"</name>
+                    <title>I wait "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569203463' status='passed' stop='1658569203463'>
+                    <name>I am in path "output/downloads"</name>
+                    <title>I am in path "output/downloads"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569203464' status='passed' stop='1658569203465'>
+                    <name>I grab file names </name>
+                    <title>I grab file names </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1658569203465' status='passed' stop='1658569203466'>
+                    <name>I see file name matching ["billdata-20220723_20220723_525_164017.csv"]</name>
+                    <title>I see file name matching ["billdata-20220723_20220723_525_164017.csv"]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
