@@ -6,3 +6,6 @@ Alam Wahyu Hutomo
 2. Create VA Sukses
 3. Bulk Upload Sukses
 4. Show dan Download Report
+
+NodeJS      : v16.16.0
+Puppeteer   : v13.6.0
